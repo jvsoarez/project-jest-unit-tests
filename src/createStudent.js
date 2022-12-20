@@ -23,4 +23,6 @@ const createStudent = (name) => {
   return object;
 };
 
+console.log(typeof createStudent().feedback);
+
 module.exports = createStudent;
