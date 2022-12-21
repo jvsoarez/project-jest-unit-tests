@@ -112,7 +112,8 @@ const createMenu = (objeto) => {
     order: (str) => {
       orders.consumption.push(str);
     },
-    pay: () => (foodPrice(orders.fetchMenu(), orders.consumption) + drinksPrice(orders.fetchMenu(), orders.consumption)) * 1.1,
+    pay: () => (foodPrice(orders.fetchMenu(), orders
+    .consumption) + drinksPrice(orders.fetchMenu(), orders.consumption)) * 1.1,
   };
   return orders;
 };
